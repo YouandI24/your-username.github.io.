@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги хендимена и клининга</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        .container {
+            padding: 20px;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .service {
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 45%;
+        }
+        .contact-form {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Услуги хендимена и клининга</h1>
+    </header>
+    <nav>
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Наша компания предоставляет профессиональные услуги хендимена и клининга. Мы гарантируем высокое качество выполнения работ и индивидуальный подход к каждому клиенту.</p>
+        </section>
+        <section id="services" class="services">
+            <div class="service">
+                <h3>Услуги хендимена</h3>
+                <p>Мелкий ремонт, сборка мебели, установка техники и многое другое.</p>
+            </div>
+            <div class="service">
+                <h3>Клининговые услуги</h3>
+                <p>Уборка помещений, мойка окон, химчистка ковров и многое другое.</p>
+            </div>
+        </section>
+        <section id="contact" class="contact-form">
+            <h2>Свяжитесь с нами</h2>
+            <form>
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="email" name="email" placeholder="Ваш email" required>
+                <textarea name="message" placeholder="Ваше сообщение" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
